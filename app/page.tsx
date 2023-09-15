@@ -3,6 +3,7 @@ import Logo from "@/components/Logo/Logo";
 import Alert from "@/components/Alert/Alert";
 import Stages from "@/components/Stages/Stages";
 import Offer from "@/components/Offer/Offer";
+import ProductImage from "@/components/ProductImage/ProductImage";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
         <Stages />
 
         <Offer />
+
+        <ProductImage />
       </div>
 
       
