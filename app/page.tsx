@@ -2,6 +2,7 @@ import NavBar from "@/components/NavBar/NavBar"
 import Logo from "@/components/Logo/Logo";
 import Alert from "@/components/Alert/Alert";
 import Stages from "@/components/Stages/Stages";
+import Offer from "@/components/Offer/Offer";
 
 export default function Home() {
   return (
@@ -14,13 +15,16 @@ export default function Home() {
         <Logo />
       </div>
 
-      <div className="mt-8">
+      <div className="mt-8 flex flex-col justify-center items-center gap-6">
         <Alert />
+
+        <Stages />
+
+        <Offer />
       </div>
 
-      <div className="mt-8">
-        <Stages />
-      </div>
+      
+      
     </main>
   )
 }
