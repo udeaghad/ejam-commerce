@@ -1,8 +1,8 @@
 const Alert = () => {
   return (
-    <div className="mx-5 flex flex-col gap-6 w-full">
-      <h1 className="text-[2rem] font-normal">Wait ! your order in progress.</h1>
-      <p className="text-base font-normal">Lorem ipsum dolor sit amet, consectetur </p>
+    <div className="flex flex-col gap-4 w-full">
+      <h1 className="text-[2rem] font-normal capitalize text-center">Wait ! your order in progress.</h1>
+      <p className="text-base font-normal capitalize text-center">Lorem ipsum dolor sit amet, consectetur </p>
     </div>
   )
 }

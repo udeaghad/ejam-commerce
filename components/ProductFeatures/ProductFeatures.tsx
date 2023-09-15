@@ -2,7 +2,7 @@ import { BsCheckLg } from 'react-icons/bs'
 
 const ProductFeatures = () => {
   return (
-    <div className='flex flex-col justify-start items-center gap-4 mx-2.5'>
+    <div className='flex flex-col justify-start items-start gap-4 w-full'>
       <div className='flex justify-start items-center gap-3'>
         <BsCheckLg className="text-base text-pry-blue"/>
         <p className='text-xs text-[#4D5254]'>

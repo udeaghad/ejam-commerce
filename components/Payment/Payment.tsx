@@ -4,23 +4,23 @@ import { FiLock } from 'react-icons/fi'
 
 const Payment = () => {
   return (
-    <div className='flex flex-col justify-start items-center gap-3 mx-2.5 w-full'>
-      <div className='border-pry-green rounded-full w-full px-16 py-4 flex justify-center items-center gap-4'>
-        <p className='text-white font-bold text-sm'>Yes - Claim my discount</p>
+    <div className='flex flex-col justify-start items-center gap-3 w-full'>
+      <div className='border-pry-green bg-pry-green rounded-full w-full py-4 flex justify-center items-center gap-4'>
+        <p className='text-white font-bold text-sm uppercase'>Yes - Claim my discount</p>
         <FaArrowRight className="text-sm text-white"/>
       </div>
 
-      <div className='border rounded-sm px-4 py-3 flex flex-col justify-start items-center'>
-        <div className='text-pry-gray text-xs flex justify-between items-center pb-3 border-b'>
+      <div className='border rounded-sm px-4 py-3 flex flex-col justify-start items-start w-full'>
+        <div className='text-pry-gray text-xs flex justify-between items-center pb-3 border-b w-full'>
           <p>Free Shipping</p>
           <p>|</p>
-          <div>
+          <div className="flex justify-center items-center gap-2">
             <FiLock />
             <p>Secure 256-bit SSL encryption</p>
           </div> 
         </div>
 
-        <div className='pt-3 border-t flex justify-center items-center'>
+        <div className='pt-3 flex justify-center items-center w-full'>
           <div className='w-6 h-3.5'>
             <Image src='/images/visa-logo.png' alt="visa-cards" width={100} height={100} />
           </div>

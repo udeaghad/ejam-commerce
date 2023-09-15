@@ -4,7 +4,7 @@ import { BsPatchCheck } from 'react-icons/bs';
 
 const NavBar = () => {
   return (
-    <div className="px-2.5 py-5 w-full bg-main-blue">
+    <div className="px-5 py-2.5 w-full bg-main-blue">
       <div className="h-5 w-full flex justify-between items-center">
         <MdOutlineArrowBackIos className="text-[#ffffff] text-xl"/>
         <div className='flex justify-center items-center gap-2'>

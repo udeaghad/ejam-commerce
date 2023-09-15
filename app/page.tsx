@@ -22,7 +22,7 @@ export default function Home() {
         <Logo />
       </div>
 
-      <div className="mt-8 flex flex-col justify-center items-center gap-6">
+      <div className="mt-8 mx-5 flex flex-col justify-center items-center gap-6">
         <Alert />
 
         <Stages />
@@ -42,7 +42,7 @@ export default function Home() {
         <Guaranty />
       </div>
 
-      <div>
+      <div className="mt-8">
         <Footer />
       </div>
 
