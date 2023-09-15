@@ -4,6 +4,7 @@ import Alert from "@/components/Alert/Alert";
 import Stages from "@/components/Stages/Stages";
 import Offer from "@/components/Offer/Offer";
 import ProductImage from "@/components/ProductImage/ProductImage";
+import ProductDetails from "@/components/ProductDetails/ProductDetails";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
         <Offer />
 
         <ProductImage />
+
+        <ProductDetails />
       </div>
 
       
