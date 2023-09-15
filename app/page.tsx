@@ -5,6 +5,7 @@ import Stages from "@/components/Stages/Stages";
 import Offer from "@/components/Offer/Offer";
 import ProductImage from "@/components/ProductImage/ProductImage";
 import ProductDetails from "@/components/ProductDetails/ProductDetails";
+import ProductFeatures from "@/components/ProductFeatures/ProductFeatures";
 
 export default function Home() {
   return (
@@ -27,6 +28,8 @@ export default function Home() {
         <ProductImage />
 
         <ProductDetails />
+
+        <ProductFeatures />
       </div>
 
       
