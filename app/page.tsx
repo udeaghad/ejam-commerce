@@ -1,9 +1,16 @@
 import NavBar from "@/components/NavBar/NavBar"
+import Logo from "@/components/Logo/Logo"
 
 export default function Home() {
   return (
     <main>
-      <NavBar />
+      <div>
+        <NavBar />
+      </div>
+
+      <div>
+        <Logo />
+      </div>
     </main>
   )
 }
