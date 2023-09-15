@@ -6,6 +6,7 @@ import Offer from "@/components/Offer/Offer";
 import ProductImage from "@/components/ProductImage/ProductImage";
 import ProductDetails from "@/components/ProductDetails/ProductDetails";
 import ProductFeatures from "@/components/ProductFeatures/ProductFeatures";
+import PromoAlert from "@/components/PromoAlert/PromoAlert";
 
 export default function Home() {
   return (
@@ -30,6 +31,8 @@ export default function Home() {
         <ProductDetails />
 
         <ProductFeatures />
+
+        <PromoAlert />
       </div>
 
       

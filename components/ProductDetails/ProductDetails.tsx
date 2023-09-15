@@ -3,7 +3,7 @@ import { GoDotFill } from "react-icons/go";
 
 const ProductDetails = () => {
   return (
-    <div className="px-2.5">
+    <div className="mx-2.5">
       <div className="flex justify-start items-center w-full gap-4 h-20">
         <div className="flex justify-center items-center w-20 h-20">
           <Image src='/images/product-image-2.png' alt="product-image" width={100} height={100} />

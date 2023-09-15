@@ -1,7 +1,7 @@
 import { BsCheckCircleFill } from 'react-icons/bs'
 const Stages = () => {
   return (
-    <div className='px-2.5 w-full flex justify-between items-center'>
+    <div className='mx-2.5 w-full flex justify-between items-center'>
       <div className='flex justify-center items-center flex-col gap-2'>
         <BsCheckCircleFill className="text-pry-green text-xl"/>
         <p className='text-xs'>Cart Review</p>
