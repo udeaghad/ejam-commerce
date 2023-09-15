@@ -8,11 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        manrope: ['var(--font-manrope)'],
       },
+      colors: {
+        'pry-blue': '#2c7ef8',
+        'pry-green': '#59ae43',
+        'pry-red': '#f82c2c',
+        'pry-gray': '#4d5254',
+        'sec-blue': '#5bb59a',
+        'adv-blue': '#edf3fd',
+        'main-blue': '#252f3d',
+      }
     },
   },
   plugins: [],
