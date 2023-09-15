@@ -9,6 +9,7 @@ import ProductFeatures from "@/components/ProductFeatures/ProductFeatures";
 import PromoAlert from "@/components/PromoAlert/PromoAlert";
 import Payment from "@/components/Payment/Payment";
 import Guaranty from "@/components/Guaranty/Guaranty";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -39,6 +40,10 @@ export default function Home() {
         <Payment />
 
         <Guaranty />
+      </div>
+
+      <div>
+        <Footer />
       </div>
 
       
