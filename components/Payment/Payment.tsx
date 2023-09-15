@@ -4,7 +4,7 @@ import { FiLock } from 'react-icons/fi'
 
 const Payment = () => {
   return (
-    <div className='flex flex-col justify-start items-center gap-3 mx-2.5'>
+    <div className='flex flex-col justify-start items-center gap-3 mx-2.5 w-full'>
       <div className='border-pry-green rounded-full w-full px-16 py-4 flex justify-center items-center gap-4'>
         <p className='text-white font-bold text-sm'>Yes - Claim my discount</p>
         <FaArrowRight className="text-sm text-white"/>
@@ -48,6 +48,11 @@ const Payment = () => {
 
       </div>
 
+      <div className='flex justify-center items-center w-full'>
+        <p className='text-xs text-pry-red uppercase'>
+          No thanks, I don’t want this.
+        </p>
+      </div>
     </div>
   )
 }
