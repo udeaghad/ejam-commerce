@@ -32,7 +32,7 @@ export default function Home() {
           <Offer />
         </div>
 
-        <div className="md:flex md:justify-start md:items-start gap-8 md:p-10">
+        <div className="md:flex md:justify-start md:items-start gap-8 md:p-10 md:bg-gradient-to-t from-[#FAFAFA] to-[#FAFAFA]">
 
           <div className="mt-8 mx-5 flex flex-col  justify-center items-center gap-6 md:justify-start md:items-start">
             <ProductImage />

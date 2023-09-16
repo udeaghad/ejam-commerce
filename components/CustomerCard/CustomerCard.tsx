@@ -2,7 +2,7 @@ import { BsFillPatchCheckFill } from 'react-icons/bs';
 
 const CustomerCard = () => {
   return (
-    <div className='flex flex-col justify-start items-start px-6 pt-6 w-full mt-4 border border-white rounded-xl'>
+    <div className='flex flex-col justify-start items-start p-6 w-full mt-4 border border-white rounded-xl bg-white'>
       <div className="w-full flex justify-start items-start gap-3.5">
         <div className="flex justify-start items-start">
           <img src='/images/kent-img.png' alt="customer-image" className="top-0 right-0 bottom-0 left-0" />
