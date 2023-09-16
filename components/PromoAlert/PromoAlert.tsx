@@ -10,7 +10,7 @@ const PromoAlert = () => {
           Save <span className="text-pry-blue font-normal">53%</span> and get <span className="text-pry-blue">6 extra Clarifision</span> for only <span className="text-pry-blue">$14 Each</span>.
         </p>
       </div>
-      
+
     </div>
   )
 }

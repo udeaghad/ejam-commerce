@@ -16,7 +16,7 @@ const CustomerCard = () => {
               Ken T.
             </p>
 
-            <BsFillPatchCheckFill className="text-xs text-sec-blue"/>
+            <BsFillPatchCheckFill className="text-xs text-sec-blue" />
 
             <p className='text-xs text-sec-blue'>
               Verified Customer

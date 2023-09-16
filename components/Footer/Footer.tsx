@@ -25,7 +25,7 @@ const Footer = () => {
           Secure 256-bit SSL encryption.
         </p>
       </div>
-      
+
     </div>
   )
 }

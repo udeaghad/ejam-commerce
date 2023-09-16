@@ -7,7 +7,7 @@ const Payment = () => {
     <div className='flex flex-col justify-start items-center gap-3 w-full'>
       <div className='border-pry-green bg-pry-green rounded-full w-full py-4 flex justify-center items-center gap-4'>
         <p className='text-white font-bold text-sm uppercase md:text-xl'>Yes - Claim my discount</p>
-        <FaArrowRight className="text-sm text-white"/>
+        <FaArrowRight className="text-sm text-white" />
       </div>
 
       <div className='border rounded-sm px-4 py-3 flex flex-col justify-start items-start w-full md:flex-row md:border md:justify-between md:items-center'>
@@ -17,7 +17,7 @@ const Payment = () => {
           <div className="flex justify-center items-center gap-2">
             <FiLock />
             <p>Secure 256-bit SSL encryption</p>
-          </div> 
+          </div>
         </div>
         <p className='hidden md:block md:text-pry-gray md:text-xs'>|</p>
 
@@ -40,7 +40,7 @@ const Payment = () => {
           <div className='w-6 h-3.5'>
             <Image src='/images/applepay.png' alt="applepay-cards" width={100} height={100} />
           </div>
-          
+
           <div className='w-6 h-3.5'>
             <Image src='/images/amex-logo.png' alt="amex-cards" width={100} height={100} />
           </div>

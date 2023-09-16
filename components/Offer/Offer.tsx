@@ -4,7 +4,7 @@ const Offer = () => {
       <p className="text-2xl text-center capitalize md:text-3xl md:text-start">
         <span className="text-pry-blue">ONE TIME ONLY</span> special price for 6 extra Clarifion for only <span className="text-pry-blue">$14 each</span> ($84.00 total!)
       </p>
-      
+
     </div>
   )
 }

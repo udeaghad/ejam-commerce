@@ -1,6 +1,4 @@
-import Image from "next/image";
 import { GoDotFill } from "react-icons/go";
-import {  BsFillCircleFill } from 'react-icons/bs';
 
 const ProductDetails = () => {
   return (
@@ -20,8 +18,8 @@ const ProductDetails = () => {
           <div className="h-3 w-16 md:h-5 md:w-[5.625rem]">
             <img src='/images/Stars.png' alt="stars" className="top-0 right-0 bottom-0 left-0" />
           </div>
-          <div className="flex justify-start items-center gap-4">            
-            <GoDotFill className="text-sm rounded-full bg-gray-200 border-gray-200 text-pry-blue md:text-base"/>
+          <div className="flex justify-start items-center gap-4">
+            <GoDotFill className="text-sm rounded-full bg-gray-200 border-gray-200 text-pry-blue md:text-base" />
             <p className="text-pry-gray text-xs font-light md:text-base">12 left in Stock</p>
           </div>
           <div className="mt-4 w-full hidden md:block">

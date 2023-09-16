@@ -9,23 +9,23 @@ const NavBar = () => {
   return (
     <div className="px-5 py-2.5 w-full bg-main-blue">
       <div className="h-5 w-full flex justify-between items-center md:justify-evenly">
-        <MdOutlineArrowBackIos className="text-[#ffffff] text-xl md:hidden"/>
+        <MdOutlineArrowBackIos className="text-[#ffffff] text-xl md:hidden" />
         <div className='flex justify-center items-center gap-2'>
-          <BsPatchCheck className="text-[#ffffff] text-xl"/>
+          <BsPatchCheck className="text-[#ffffff] text-xl" />
           <h2 className="text-xs font-medium text-[#ffffff]">30-DAY SATISFACTION GUARANTEE</h2>
         </div>
-        <MdArrowForwardIos className="text-[#ffffff] text-xl md:hidden"/>
+        <MdArrowForwardIos className="text-[#ffffff] text-xl md:hidden" />
 
         <div className='hidden md:flex md:justify-center md:items-center md:gap-2'>
-          <TbTruckDelivery className="text-[#ffffff] text-xl"/>
+          <TbTruckDelivery className="text-[#ffffff] text-xl" />
           <h2 className="text-xs font-medium text-[#ffffff] uppercase">Free delivery on orders over $40.00</h2>
         </div>
         <div className='hidden md:flex md:justify-center md:items-center md:gap-2'>
-          <BsHeart className="text-[#ffffff] text-xl"/>
+          <BsHeart className="text-[#ffffff] text-xl" />
           <h2 className="text-xs font-medium text-[#ffffff] uppercase">F50.000+ HAPPY CUSTOMERS</h2>
         </div>
         <div className='hidden md:flex md:justify-center md:items-center md:gap-2'>
-          <TiArrowSyncOutline className="text-[#ffffff] text-xl"/>
+          <TiArrowSyncOutline className="text-[#ffffff] text-xl" />
           <h2 className="text-xs font-medium text-[#ffffff] uppercase">100% Money Back Guarantee</h2>
         </div>
       </div>
