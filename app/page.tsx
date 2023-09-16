@@ -19,11 +19,11 @@ export default function Home() {
         <NavBar />
       </div>
 
-      <div>
+      <div className="md:mx-24">
         <Logo />
       </div>
 
-      <div className="mt-8 mx-5 flex flex-col justify-center items-center gap-6">
+      <div className="mt-8 mx-5 flex flex-col justify-center items-center gap-6 md:mx-32">
         <Alert />
 
         <Stages />
@@ -32,9 +32,9 @@ export default function Home() {
           <Offer />
         </div>
 
-        <div className="md:flex md:justify-center md:items-center gap-8 p-10">
+        <div className="md:flex md:justify-start md:items-start gap-8 md:p-10">
 
-          <div>
+          <div className="mt-8 mx-5 flex flex-col  justify-center items-center gap-6 md:justify-start md:items-start">
             <ProductImage />
 
             <div className="hidden md:block">
@@ -43,10 +43,11 @@ export default function Home() {
 
           </div>
 
-          <div>
-            <div className="hidden md:block">
+          <div className="mt-8 mx-5 flex flex-col justify-center items-center gap-6 md:justify-start md:items-start md:gap-8 md:mt-0 md:mx-0">
+            <div className="hidden md:block ">
               <Offer />
             </div>
+
             <ProductDetails />
 
             <ProductFeatures />
