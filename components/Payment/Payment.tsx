@@ -50,7 +50,7 @@ const Payment = () => {
       </div>
 
       <div className='flex justify-center items-center w-full'>
-        <p className='text-xs text-pry-red uppercase'>
+        <p className='text-xs text-pry-red uppercase md:text-lg'>
           No thanks, I don’t want this.
         </p>
       </div>
