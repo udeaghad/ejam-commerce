@@ -10,6 +10,7 @@ import PromoAlert from "@/components/PromoAlert/PromoAlert";
 import Payment from "@/components/Payment/Payment";
 import Guaranty from "@/components/Guaranty/Guaranty";
 import Footer from "@/components/Footer/Footer";
+import CustomerCard from "@/components/CustomerCard/CustomerCard";
 
 export default function Home() {
   return (
@@ -27,19 +28,41 @@ export default function Home() {
 
         <Stages />
 
-        <Offer />
+        <div className="md:hidden">
+          <Offer />
+        </div>
 
-        <ProductImage />
+        <div className="md:flex md:justify-center md:items-center gap-8 p-10">
 
-        <ProductDetails />
+          <div>
+            <ProductImage />
 
-        <ProductFeatures />
+            <div className="hidden md:block">
+              <CustomerCard />
+            </div>
 
-        <PromoAlert />
+          </div>
 
-        <Payment />
+          <div>
+            <div className="hidden md:block">
+              <Offer />
+            </div>
+            <ProductDetails />
 
-        <Guaranty />
+            <ProductFeatures />
+
+            <PromoAlert />
+
+            <Payment />
+
+            <Guaranty />
+
+          </div>
+        </div>
+
+
+
+
       </div>
 
       <div className="mt-8">
